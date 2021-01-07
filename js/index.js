@@ -147,7 +147,6 @@ const sr = ScrollReveal({
     reset: true
 });
 sr.reveal(`.home-content, .home__img, .home__btn,
-            .right, .about__img,
-            .contact-content`, {
+            .right, .about__img`, {
     interval: 200
 });
