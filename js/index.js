@@ -148,7 +148,6 @@ const sr = ScrollReveal({
 });
 sr.reveal(`.home-content, .home__img, .home__btn,
             .right, .about__img,
-            .button-group, .our-project,
             .contact-content`, {
     interval: 200
 });
