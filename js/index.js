@@ -144,7 +144,7 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
     duration: 2000,
-    reset: true
+    reset: false
 });
 sr.reveal(`.home-content, .home__img, .home__btn,
             .right, .about__img`, {
