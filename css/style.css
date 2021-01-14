@@ -622,6 +622,9 @@ footer span a:hover {
     display: block;
     z-index: 9999;
   }
+   .menu-btn i.active:before{
+	  content:"\f00d";
+  }
   .navbar .logo {
     z-index: 999;
   }
