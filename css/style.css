@@ -411,7 +411,7 @@ section .title::after {
   height: 45px;
   width: 42px;
   background: #ff2017;
-  right: 30px;
+  right: 110px;
   bottom: 10px;
   text-align: center;
   line-height: 45px;
@@ -428,10 +428,10 @@ section .title::after {
 }
 
 .scroll-up-btn.show {
-  bottom: 100px;
+  bottom: 40px;
   opacity: 1;
   pointer-events: auto;
-	filter:drop-shadow(1px 8px 13px #111);
+	filter:drop-shadow(1px 8px 13px grey);
 }
 
 .scroll-up-btn:hover {
