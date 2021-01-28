@@ -676,6 +676,16 @@ footer span a:hover {
     padding: 1rem 0;
     font-size: 2rem;
   }
+	
+.scroll-up-btn.show {
+    bottom: 115px;
+	}
+	
+.scroll-up-btn {
+	right:43px;
+	}
+	
+	
   .home .home-content .text-2 {
     font-size: 3rem;
   }
