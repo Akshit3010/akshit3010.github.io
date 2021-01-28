@@ -431,12 +431,12 @@ section .title::after {
   bottom: 100px;
   opacity: 1;
   pointer-events: auto;
-	filter:drop-shadow(1px 8px 13px #707070);
+	filter:drop-shadow(1px 8px 13px #111);
 }
 
 .scroll-up-btn:hover {
   -webkit-filter: brightness(90%);
-          filter: brightness(90%) drop-shadow(1px 8px 13px #111);
+          filter: brightness(90%) drop-shadow(1px 8px 13px #707070);
 	
 }
 
