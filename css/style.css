@@ -411,7 +411,7 @@ section .title::after {
   height: 45px;
   width: 42px;
   background: #ff2017;
-  right: 110px;
+  right: 30px;
   bottom: 10px;
   text-align: center;
   line-height: 45px;
@@ -428,7 +428,7 @@ section .title::after {
 }
 
 .scroll-up-btn.show {
-  bottom: 40px;
+  bottom: 30px;
   opacity: 1;
   pointer-events: auto;
 	filter: drop-shadow(0px 1px 6px #111111);
@@ -677,14 +677,7 @@ footer span a:hover {
     font-size: 2rem;
   }
 	
-.scroll-up-btn.show {
-    bottom: 115px;
-	}
-	
-.scroll-up-btn {
-	right:43px;
-	}
-	
+
 	
   .home .home-content .text-2 {
     font-size: 3rem;
