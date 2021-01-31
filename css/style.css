@@ -455,21 +455,41 @@ section .title::after {
 
 .project-area .button-group button {
   background: transparent;
-  border: none;
+  border: 2px solid var(--primary-color);
+  border-radius:50px;
   font: normal 500 16px/130px;
   text-transform: uppercase;
   color: var(--secondary-color);
   outline: none;
+  transition:all 0.5s ease;
 }
 
-.project-area .button-group button .active-link {
-  color: var(--primary-color);
+.project-area .button-group .active-link,
+.project-area .button-group button:hover  {
+  background-color: var(--primary-color);
 }
 
-.project-area .button-group button + button {
-  padding-left: 3rem;
+.project-area .button-group button {
+ padding:7px 25px;
   margin-bottom: 10px;
   outline: none;
+}
+
+.grid .our-project.hide {
+display:none;
+}
+
+.grid .our-project.show {
+animation: show 0.4s ease;
+}
+
+@keyframes show{
+	0%{
+		transform:scale(0.5);
+	}
+	100%{
+		transform:scale(1);
+	}
 }
 
 .project-area .grid .our-project > .title h4 {
