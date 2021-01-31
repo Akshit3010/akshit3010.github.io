@@ -57,24 +57,34 @@ $(document).ready(function() {
         }
     });
 
-    //work
-    let $btns = $('.project-area .button-group button');
-
-
-    $btns.click(function(e) {
-
-        $('.project-area .button-group button').removeClass('active-link');
-        e.target.classList.add('active-link');
-
-        let selector = $(e.target).attr('data-filter');
-        $('.project-area .grid').isotope({
-            filter: selector
-        });
-
-        return false;
-    })
-
 });
+/*==================== WORK ====================*/
+const filterItem= document.querySelector(".button-group");
+const filterImg= document.querySelectorAll(".our-project");
+
+window.onload =()=>{
+	filterItem.onclick=(selectedItem)=>{
+		if(selectedItem.target.classList.contains("item")){
+			filterItem.querySelector(".active-link").classList.remove("active-link");
+			selectedItem.target.classList.add("active-link");
+			let filterName= selectedItem.target.getAttribute("data-filter");
+			
+			filterImg.forEach((image)=>{
+				let filterImages= image.getAttribute("data-filter");
+			 if((filterImages == filterName)|| filterName== "all"){
+				 image.classList.remove("hide");
+				 image.classList.add("show");
+			 }
+			 else{
+				  image.classList.add("hide");
+				image.classList.remove("show");
+			 }
+			});
+		}
+		
+	}
+}
+
 
 
 /*==================== REMOVE MENU MOBILE ====================*/
