@@ -58,6 +58,22 @@ $(document).ready(function() {
     });
 
 });
+
+
+
+/*==================== REMOVE MENU MOBILE ====================*/
+const navLink = document.querySelectorAll('.nav-link')
+
+function linkAction() {
+    const navMenu = document.getElementById('nav-menu')
+      const menubtn = document.querySelector('.menu-btn i')
+        // When we click on each nav__link, we remove the active class
+    navMenu.classList.remove('active')
+	menubtn.classList.remove('active')
+
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
+
 /*==================== WORK ====================*/
 const filterItem= document.querySelector(".button-group");
 const filterImg= document.querySelectorAll(".our-project");
@@ -86,19 +102,6 @@ window.onload =()=>{
 }
 
 
-
-/*==================== REMOVE MENU MOBILE ====================*/
-const navLink = document.querySelectorAll('.nav-link')
-
-function linkAction() {
-    const navMenu = document.getElementById('nav-menu')
-      const menubtn = document.querySelector('.menu-btn i')
-        // When we click on each nav__link, we remove the active class
-    navMenu.classList.remove('active')
-	menubtn.classList.remove('active')
-
-}
-navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.getElementById('theme-button')
