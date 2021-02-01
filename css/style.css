@@ -405,9 +405,9 @@ section .title::after {
 .menu-btn {
  position:absolute;
  top:1.8rem;
- right:4rem;
- height:1.2rem;
- width:2.2rem;
+ right:2.2rem;
+ height:1.6rem;
+ width:2.6rem;
  display:none;
  flex-direction:column;
  justify-content:space-between;
@@ -465,8 +465,7 @@ section .title::after {
   color: #fff;
   z-index: 998;
   font-size: 30px;
-  border-radius: 6px;
-  border-bottom-width: 2px;
+  border-radius: 50px;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
@@ -741,7 +740,9 @@ footer span a:hover {
     font-size: 2rem;
   }
 	
-
+     .home{
+	height:100vh;	
+	}
 	
   .home .home-content .text-2 {
     font-size: 3rem;
