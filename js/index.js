@@ -30,7 +30,9 @@ $(document).ready(function() {
     // toggle menu/navbar script
     $('.menu-btn').click(function() {
         $('.navbar .menu').toggleClass("active");
-        $('.menu-btn i').toggleClass("active");
+       $('.menu-btn').toggleClass("active"); 
+	 $('body').toggleClass("no-scroll"); 
+		
     });
 
     // typing text animation script
@@ -65,11 +67,13 @@ $(document).ready(function() {
 const navLink = document.querySelectorAll('.nav-link')
 
 function linkAction() {
-    const navMenu = document.getElementById('nav-menu')
-      const menubtn = document.querySelector('.menu-btn i')
+   const navMenu = document.getElementById('nav-menu');
+	const menubtn = document.querySelector('.menu-btn');
+	const body = document.querySelector('body');
         // When we click on each nav__link, we remove the active class
-    navMenu.classList.remove('active')
-	menubtn.classList.remove('active')
+    navMenu.classList.remove('active');
+	menubtn.classList.remove('active');
+	body.classList.remove('no-scroll');
 
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
