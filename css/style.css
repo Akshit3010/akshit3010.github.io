@@ -681,14 +681,6 @@ footer span a:hover {
     height: 350px;
     width: 310px;
   }
-	.home{
-	height:700px;
-	}
-	.navbar .menu li a {
-    display: block;
-    padding: 1rem 0;
-    font-size: 2.4rem!important;
-  }
 }
 
 @media (max-width: 991px) {
@@ -812,6 +804,19 @@ footer span a:hover {
     height: 250px;
     width: 250px;
   }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.home{
+	height:700px;
+	}
+	 .navbar .menu li a {
+    display: block;
+    padding: 1rem 0;
+    font-size: 2rem!important;
+  }
+	.navbar .menu li .bx::after{
+	 font-size: 2rem!important;
+	}
 }
 
 @media (min-width: 280px) and (max-width: 300px) {
