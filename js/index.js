@@ -78,6 +78,21 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/*==============Remove menu when we click outside=============*/
+
+document.onclick = function(e) {
+    const navMenu = document.getElementById('nav-menu')
+    const menubtn = document.getElementById('menu-btn');
+    const body = document.querySelector('body');
+    if (e.target.id !== "nav-menu" && e.target.id !== "menu-btn") {
+        navMenu.classList.remove('active');
+        menubtn.classList.remove('active');
+        body.classList.remove('no-scroll');
+    }
+}
+
+
+
 /*==================== WORK ====================*/
 const filterItem= document.querySelector(".button-group");
 const filterImg= document.querySelectorAll(".our-project");
