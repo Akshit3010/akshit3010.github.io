@@ -417,7 +417,7 @@ section .title::after {
 }
 
 
-.active{
+.menu-btn.active{
 	transform:rotate(-45deg);
 }
 
