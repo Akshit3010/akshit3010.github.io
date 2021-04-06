@@ -83,8 +83,11 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 document.onclick = function(e) {
     const navMenu = document.getElementById('nav-menu')
     const menubtn = document.getElementById('menu-btn');
+    const one = document.getElementById('one');
+    const two = document.getElementById('two');
+    const three = document.getElementById('three');
     const body = document.querySelector('body');
-    if (e.target.id !== "nav-menu" && e.target.id !== "menu-btn") {
+    if (e.target.id !== "nav-menu" && e.target.id !== "menu-btn" && e.target.id !== "one" && e.target.id !== "two" && e.target.id !== "three") {
         navMenu.classList.remove('active');
         menubtn.classList.remove('active');
         body.classList.remove('no-scroll');
