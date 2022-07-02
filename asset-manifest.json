@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a61eb887.css",
-    "main.js": "/static/js/main.9b6e2865.js",
+    "main.css": "/static/css/main.9a7f33b6.css",
+    "main.js": "/static/js/main.a391b923.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Mask.jpg": "/static/media/Mask.5a762c1786ba2665ff3b.jpg",
     "static/media/Rockstar.jpg": "/static/media/Rockstar.e1c6dfcc85fb06e1125e.jpg",
@@ -10,12 +10,12 @@
     "static/media/logo2.jpg": "/static/media/logo2.07bb71e77037dd1c91d1.jpg",
     "static/media/logo.png": "/static/media/logo.60ed405f77b3613395c3.png",
     "index.html": "/index.html",
-    "main.a61eb887.css.map": "/static/css/main.a61eb887.css.map",
-    "main.9b6e2865.js.map": "/static/js/main.9b6e2865.js.map",
+    "main.9a7f33b6.css.map": "/static/css/main.9a7f33b6.css.map",
+    "main.a391b923.js.map": "/static/js/main.a391b923.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a61eb887.css",
-    "static/js/main.9b6e2865.js"
+    "static/css/main.9a7f33b6.css",
+    "static/js/main.a391b923.js"
   ]
 }
