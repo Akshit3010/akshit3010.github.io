@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.770b164e.css",
-    "main.js": "/static/js/main.d68f2927.js",
+    "main.js": "/static/js/main.87a23809.js",
     "static/media/Mask.jpg": "/static/media/Mask.5a762c1786ba2665ff3b.jpg",
     "static/media/Rockstar.jpg": "/static/media/Rockstar.e1c6dfcc85fb06e1125e.jpg",
     "static/media/Harry.jpg": "/static/media/Harry.788d9c8b175cc960ae9e.jpg",
@@ -10,10 +10,10 @@
     "static/media/logo.png": "/static/media/logo.60ed405f77b3613395c3.png",
     "index.html": "/index.html",
     "main.770b164e.css.map": "/static/css/main.770b164e.css.map",
-    "main.d68f2927.js.map": "/static/js/main.d68f2927.js.map"
+    "main.87a23809.js.map": "/static/js/main.87a23809.js.map"
   },
   "entrypoints": [
     "static/css/main.770b164e.css",
-    "static/js/main.d68f2927.js"
+    "static/js/main.87a23809.js"
   ]
 }
